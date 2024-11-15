@@ -1,5 +1,4 @@
-#ifndef FUNCIONES_H_INCLUDED
-#define FUNCIONES_H_INCLUDED
+#pragma once
 #include <string>
 #include <iostream>
 #include <cstdlib>
@@ -12,4 +11,3 @@ int PartidaUnJugador(bool simulado);
 int PartidaDosJugadores(bool simulado);
 void comparadorpuntajes(int &mayorpuntaje, std::string &nombremayorpuntaje, int nuevopuntaje, std::string nuevonombrepuntaje);
 void MostrarPuntaje();
-#endif // FUNCIONES_H_INCLUDED

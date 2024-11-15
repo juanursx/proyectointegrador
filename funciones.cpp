@@ -316,15 +316,18 @@ int PartidaDosJugadores(bool simulado) {
     std::cin>>opcion;
     while(true){
         if(opcion==2){
+            system("cls");
             return 2;
         }
         else if(opcion == 1){
+            system("cls");
             break;
         }
         else{
             std::cout<<std::endl<<"Error. Elige una opcion correcta."<<std::endl;
+            system("pause>null");
+            system("cls");
         }
     }
     return 1;
 }
-
